@@ -1,0 +1,16 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+*.tsbuildinfo
+
+# Vite 生成的类型声明
+*.d.ts
+!src/vite-env.d.ts
+
+# 编辑器/系统
+.DS_Store
+*.local
+.env
+.env.*

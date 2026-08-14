@@ -1,0 +1,23 @@
+{
+  "name": "qinban",
+  "version": "0.1.0",
+  "description": "钢琴初学者智能陪练 H5",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "opensheetmusicdisplay": "^1.8.46",
+    "tone": "^15.0.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
